@@ -108,6 +108,7 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -801,12 +802,24 @@
             this.label40.TabIndex = 112;
             this.label40.Text = resources.GetString("label40.Text");
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.Location = new System.Drawing.Point(550, 778);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(122, 41);
+            this.button7.TabIndex = 113;
+            this.button7.Text = "EXPORT TO XML";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(721, 852);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox20);
@@ -975,5 +988,6 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Button button7;
     }
 }
